@@ -224,6 +224,8 @@ hr {
 .resume-section {
     padding: 60px 25px 0 0;
     margin-left: 235px;
+    position: relative;
+    z-index: -1;
 }
 
 .res-child {
@@ -325,6 +327,8 @@ hr {
 .contact {
     margin-top: 110px;
     margin-left: 235px;
+    position: relative;
+    z-index: -1;
 }
 
 iframe {
@@ -424,7 +428,7 @@ textarea:-webkit-autofill:focus {
 .container {
     width: 0;
     height: 0;
-    position: relative;
+    position: fixed;
 }
 
 .hamburger {
@@ -613,7 +617,7 @@ textarea:-webkit-autofill:focus {
     }
 
     hr {
-        left: 380px;
+        left: 485px;
     }
 }
 
@@ -651,7 +655,7 @@ textarea:-webkit-autofill:focus {
 
     .about-section {
         padding: 0;
-        margin: 60px 25px 0 30px;
+        margin: 60px 25px 0 70px;
     }
 
     .inner-about {
@@ -671,7 +675,7 @@ textarea:-webkit-autofill:focus {
 
     .resume-section {
         padding: 0;
-        margin: 60px 25px 0 30px;
+        margin: 60px 25px 0 70px;
     }
 
     .res-child {
@@ -679,7 +683,7 @@ textarea:-webkit-autofill:focus {
     }
 
     .skills-section {
-        margin: 60px 25px 0 30px;
+        margin: 60px 25px 0 70px;
     }
 
     .inner-skills h1 {
@@ -706,7 +710,7 @@ textarea:-webkit-autofill:focus {
     }
 
     .contact {
-        margin: 60px 0 0 45px;
+        margin: 60px 0 0 70px;
     }
 
     .inner-contact {
@@ -718,7 +722,7 @@ textarea:-webkit-autofill:focus {
     }
 
     .myform {
-        margin-top: 50px;
+        margin: 50px 90px;
     }
 
     hr {
@@ -759,7 +763,7 @@ textarea:-webkit-autofill:focus {
 
     .about-section {
         padding: 0;
-        margin: 60px 25px 0 30px;
+        margin: 60px 25px 0 70px;
     }
 
     .about-section p {
@@ -777,7 +781,7 @@ textarea:-webkit-autofill:focus {
     }
 
     .inner-about img {
-        margin: 5px auto 15px 40px;
+        margin: 10px auto;
         height: 220px;
         width: 190px;
     }
@@ -794,7 +798,7 @@ textarea:-webkit-autofill:focus {
 
     .resume-section {
         padding: 0;
-        margin: 60px 25px 0 30px;
+        margin: 60px 25px 0 70px;
     }
 
     .resume-section p {
@@ -810,7 +814,7 @@ textarea:-webkit-autofill:focus {
     }
 
     .skills-section {
-        margin: 60px 25px 0 30px;
+        margin: 60px 25px 0 70px;
     }
 
     .skills-section p {
@@ -850,7 +854,8 @@ textarea:-webkit-autofill:focus {
     }
 
     .myform {
-        margin-top: 50px;
+        width: 85%;
+        margin: 50px 15px;
     }
 
     .inner-contact {
@@ -858,7 +863,8 @@ textarea:-webkit-autofill:focus {
     }
 
     iframe {
-        width: 90%;
+        width: 85%;
+        margin-left: 12px;
     }
 
     .myform {
@@ -873,7 +879,7 @@ textarea:-webkit-autofill:focus {
     }
 
     hr {
-        left: 151px;
+        left: 170px;
         border-width: 4px;
         width: 8%;
     }
